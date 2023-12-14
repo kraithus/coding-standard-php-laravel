@@ -1,11 +1,11 @@
-# Database Naming Conventions
+# 1. Database Naming Conventions
 Lower case and underscores, e.g. a database for deceased infants.
 ```sql
 CREATE DATABASE `deceased_infants`;
 ```
 
-# Database Engine and Collation
-Database engine to be used always is InnoDB and the character set it utf8mb4 and the collation is utf8mb4_unicode_ci
+# 2. Database Engine and Collation
+Database engine to be used always is InnoDB and the character set is utf8mb4 and the collation is utf8mb4_unicode_ci
 
 ```sql
 CREATE DATABASE `deceased_infants`

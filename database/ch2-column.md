@@ -1,10 +1,10 @@
-# Column Naming Convention 
+# 1. Column Naming Convention 
 The article I am referencing I disagree with on this point because Laravel does not agree with it, you can go read his argument for educations sake. We are slaves to the framework.
 
-## I love ids
+## 1.1. I love ids
 All table primary keys should be named `id`, unless we go big and decide to use `uuids`, but I think they co-exist.
 
-# Data types and lengths, constraints for common columns
+# 2. Data types and lengths, constraints for common columns
 ```sql
 CREATE TABLE `common_columns`(
     `id` BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -16,7 +16,7 @@ CREATE TABLE `common_columns`(
     `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 ```
-## What this looks like in laravel
+## 2.1. What this looks like in laravel
 
 ```php
 <?php
@@ -51,8 +51,8 @@ return new class extends Migration
     }
 };
 ```
-### Laravel migrations string() method
+### 2.1.1. Laravel migrations string() method
 `string()` sets the data type to `VARCHAR` and column length to `255`. From my pseudo-knowledge it can take up to 2 arguments, `string('column_name', INT_LENGTH)`. The column name and its length. 
 
-### Laravel migrations timestamps() method
+### 2.1.2. Laravel migrations timestamps() method
 `timestamps()` creates the lovely audits `created_at` and `updated_at`

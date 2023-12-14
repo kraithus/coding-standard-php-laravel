@@ -1,12 +1,12 @@
-# Primary Keys
+# 1. Primary Keys
 `id`
 
-# Unique Keys
+# 2. Unique Keys
 These must always be unique keys:  
 `email`  
 `phone_number`
 
-# Foreign Keys
+# 3. Foreign Keys
 ```sql
 CREATE TABLE users(
     `id` BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT
@@ -18,7 +18,7 @@ CREATE TABLE devices(
     FOREIGN KEY (`user_id`) REFERENCES users (`id`)
 );
 ```
-## What this looks like in Laravel
+## 3.1. What this looks like in Laravel
 ```php
 <?php
 
