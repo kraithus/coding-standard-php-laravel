@@ -39,3 +39,5 @@ Commits should represent single logical changes, makes it easier to rollback if 
 `added feature x, added feature y, bug fix of feature z, deleted go-home.blade.php`
 
 Remember, all changes MUST be pushed to either `feature/branch-name` or `development` never to the `master` branch.
+
+Even after your merge request has been approved or you approve one, you MUST never delete that feature branch

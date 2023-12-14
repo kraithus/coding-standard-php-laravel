@@ -7,3 +7,6 @@ I was lazy with some examples, so if you try the code and it does not work do in
 # Abbreviations
 ##  PSR
 PHP Standard Recommendation
+
+# Reading these standards
+Start from [1. collaboration](collaboration) go to [2. database](database) then finally work your way to [3. code](code)
