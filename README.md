@@ -12,4 +12,3 @@ PHP Standard Recommendation
 Start from [1. collaboration](collaboration) go to [2. database](database) then finally work your way to [3. code](code)
 
 The `github mobile app` is very good, you can view the repo there too, it looks very elegant. You can pull so you see it in your own repos and read from there. Or you can clone and view the files using Okular or I don't know what other markdown readers exist. Any major commits will be communicated on the discord server in `#git-push-ping`
-Start from [1. collaboration](collaboration) go to [2. database](database) then finally work your way to [3. code](code)
