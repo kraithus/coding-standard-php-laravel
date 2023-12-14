@@ -17,7 +17,7 @@ On this what it explicitly says is:
 Some quick code samples on how to go about it
 
 ### 1.1.1. Classes
-> Namespaces and classes MUST follow an "autoloading" PSR: [[PSR-0], [PSR-4]]. 
+> Namespaces and classes MUST follow an "autoloading" PSR: [[PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md), [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)]. 
 This means each class is in a file by itself, and is in a namespace of at least one level: a top-level vendor name. Class names MUST be declared in `StudlyCaps`. Code written for PHP 5.3 and after MUST use formal namespaces.
 
 For example:
